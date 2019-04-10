@@ -15,6 +15,11 @@
 		1863B64D22145F2D004573EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863B64C22145F2D004573EC /* main.m */; };
 		1863B65722145F2D004573EC /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863B65622145F2D004573EC /* ____Tests.m */; };
 		1863B66222145F2D004573EC /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863B66122145F2D004573EC /* ____UITests.m */; };
+		1863B67422146018004573EC /* huohua.png in Resources */ = {isa = PBXBuildFile; fileRef = 1863B67022146018004573EC /* huohua.png */; };
+		1863B67522146018004573EC /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1863B67122146018004573EC /* back.jpg */; };
+		1863B67622146018004573EC /* xuehua.png in Resources */ = {isa = PBXBuildFile; fileRef = 1863B67222146018004573EC /* xuehua.png */; };
+		1863B67722146018004573EC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 1863B67322146018004573EC /* ball.png */; };
+		1863B67B221460B1004573EC /* HappyNewYearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863B67A221460B1004573EC /* HappyNewYearView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		1863B65D22145F2D004573EC /* 西藏的雪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "西藏的雪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1863B66122145F2D004573EC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1863B66322145F2D004573EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1863B67022146018004573EC /* huohua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huohua.png; sourceTree = "<group>"; };
+		1863B67122146018004573EC /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		1863B67222146018004573EC /* xuehua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuehua.png; sourceTree = "<group>"; };
+		1863B67322146018004573EC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		1863B679221460B1004573EC /* HappyNewYearView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyNewYearView.h; sourceTree = "<group>"; };
+		1863B67A221460B1004573EC /* HappyNewYearView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyNewYearView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,8 @@
 		1863B63C22145F2A004573EC /* 西藏的雪 */ = {
 			isa = PBXGroup;
 			children = (
+				1863B67822146064004573EC /* View */,
+				1863B66F22145F80004573EC /* images */,
 				1863B63D22145F2A004573EC /* AppDelegate.h */,
 				1863B63E22145F2A004573EC /* AppDelegate.m */,
 				1863B64022145F2A004573EC /* ViewController.h */,
@@ -130,6 +143,26 @@
 				1863B66322145F2D004573EC /* Info.plist */,
 			);
 			path = "西藏的雪UITests";
+			sourceTree = "<group>";
+		};
+		1863B66F22145F80004573EC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1863B67122146018004573EC /* back.jpg */,
+				1863B67322146018004573EC /* ball.png */,
+				1863B67022146018004573EC /* huohua.png */,
+				1863B67222146018004573EC /* xuehua.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1863B67822146064004573EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1863B679221460B1004573EC /* HappyNewYearView.h */,
+				1863B67A221460B1004573EC /* HappyNewYearView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +269,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1863B64A22145F2D004573EC /* LaunchScreen.storyboard in Resources */,
+				1863B67622146018004573EC /* xuehua.png in Resources */,
+				1863B67522146018004573EC /* back.jpg in Resources */,
 				1863B64722145F2D004573EC /* Assets.xcassets in Resources */,
 				1863B64522145F2A004573EC /* Main.storyboard in Resources */,
+				1863B67422146018004573EC /* huohua.png in Resources */,
+				1863B67722146018004573EC /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1863B64222145F2A004573EC /* ViewController.m in Sources */,
+				1863B67B221460B1004573EC /* HappyNewYearView.m in Sources */,
 				1863B64D22145F2D004573EC /* main.m in Sources */,
 				1863B63F22145F2A004573EC /* AppDelegate.m in Sources */,
 			);
@@ -436,8 +474,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BWAYBWJ3GG;
+				DEVELOPMENT_TEAM = LAU68ANR6F;
 				INFOPLIST_FILE = "西藏的雪/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +492,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BWAYBWJ3GG;
+				DEVELOPMENT_TEAM = LAU68ANR6F;
 				INFOPLIST_FILE = "西藏的雪/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

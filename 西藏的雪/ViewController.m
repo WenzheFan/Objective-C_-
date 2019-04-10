@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HappyNewYearView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    HappyNewYearView *view = [[HappyNewYearView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [self.view addSubview:view];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

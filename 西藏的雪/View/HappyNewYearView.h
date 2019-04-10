@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HappyNewYearView.h
 //  西藏的雪
 //
 //  Created by apple on 2019/2/13.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
-
+@interface HappyNewYearView : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END
